@@ -6,12 +6,12 @@
 #    By: ghwa <ghwa@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/09 17:58:23 by ghwa              #+#    #+#              #
-#    Updated: 2025/08/05 15:37:56 by ghwa             ###   ########.fr        #
+#    Updated: 2025/08/05 16:55:09 by ghwa             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
-FLAGS = -Wall -Werror -Wextra -std=c++98 -fsanitize=address
+FLAGS = -Wall -Werror -Wextra -std=c++98 -pedantic
 SRCS = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 OBJS = $(SRCS:.cpp=.o)
 NAME = main
